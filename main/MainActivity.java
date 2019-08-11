@@ -1,4 +1,4 @@
-package com.leandro.weatherapp;
+package com.example.weatherapp;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
             DownloadTask task = new DownloadTask();
 
-            task.execute("https://api.openweathermap.org/data/2.5/weather?q="+encodedCityName+"&APPID=73150999e7e0a727dc4f621360ab065c");
+            task.execute("https://api.openweathermap.org/data/2.5/weather?q="+encodedCityName+"&APPID=EnterYourAPIkey");
 
         } catch (UnsupportedEncodingException e) {
 
